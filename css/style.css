@@ -1,0 +1,55 @@
+:root {
+    --tomate-intenso: #E32636;
+    --tomate-zumo: #FF6F61;
+    --blanco-sucio: #FDFDFD;
+    --tomate-piel: #9B111E;
+    --tallo: #4F7942;
+    --pueblo: #CD853F;
+}
+
+.bg-tomate-intenso {
+  background-color: var(--tomate-intenso);
+}
+.bg-tomate-zumo {
+  background-color: var(--tomate-zumo);
+}
+.bg-blanco-sucio {
+  background-color: var(--blanco-sucio);
+}
+.bg-tomate-piel {
+  background-color: var(--tomate-piel);
+}
+.bg-tallo {
+  background-color: var(--tallo);
+}
+.bg-pueblo {
+  background-color: var(--pueblo);
+}
+.text-tomate-intenso {
+  color: var(--tomate-intenso);
+}
+
+.text-tomate-zumo {
+  color: var(--tomate-zumo);
+}
+
+.text-blanco-sucio {
+  color: var(--blanco-sucio);
+}
+
+.text-tomate-piel {
+  color: var(--tomate-piel);
+}
+
+.text-tallo {
+  color: var(--tallo);
+}
+
+.text-pueblo {
+  color: var(--pueblo);
+}
+
+.img-portada {
+  height: 81vh;   
+  object-fit: cover; 
+}
