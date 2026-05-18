@@ -53,3 +53,16 @@
   height: 81vh;   
   object-fit: cover; 
 }
+
+p {
+  font-size: 1.1rem;
+  color: var(--tomate-piel);
+}
+
+h1, h2, h3, h4, h5, a, .navbar-brand, .nav-link, footer {
+  color: var(--tomate-piel);
+}
+
+body {
+  color: var(--tomate-piel);
+}
