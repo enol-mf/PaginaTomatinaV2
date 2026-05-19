@@ -1,9 +1,9 @@
 <!doctype html>
-<html lang="en">
+<html lang="es">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Tomatina</title>
+    <title>La Tomatina de Buñol</title>
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -18,60 +18,163 @@
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
-    <div class="container-fluid d-flex flex-column">
-      <nav class="navbar navbar-expand-lg ">
-        <div class="container-fluid text-center">
-          <div>
-            <a class="navbar-brand" href="index.html"
-              >Inicio</a
-            >
-            <button
-              class="navbar-toggler"
-              type="button"
-              data-bs-toggle="collapse"
-              data-bs-target="#navbarSupportedContent"
-              aria-controls="navbarSupportedContent"
-              aria-expanded="false"
-              aria-label="Toggle navigation"
-            >
-              <span class="navbar-toggler-icon"></span>
-            </button>
-          </div>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a
-                  class="nav-link active"
-                  href="historia.html"
-                >
-                  Historia
-                </a>
-              </li>
 
-              <li class="nav-item">
-                <a class="nav-link" href="comoir.html">Como ir</a>
-              </li>
+    <nav class="navbar navbar-expand-lg sticky-top" aria-label="Navegación principal">
+      <div class="container">
+        <a class="navbar-brand" href="index.html">La Tomatina</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarMain"
+          aria-controls="navbarMain"
+          aria-expanded="false"
+          aria-label="Abrir menú de navegación"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarMain">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item"><a class="nav-link active" aria-current="page" href="index.html">Inicio</a></li>
+            <li class="nav-item"><a class="nav-link" href="historia.html">Historia</a></li>
+            <li class="nav-item"><a class="nav-link" href="comoir.html">Cómo ir</a></li>
+            <li class="nav-item"><a class="nav-link" href="normas.html">Normas</a></li>
+            <li class="nav-item"><a class="nav-link" href="faq.html">FAQ</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
 
-              <li class="nav-item">
-                <a class="nav-link" href="normas.html"
-                  >Normas</a
-                >
-              </li>
+    <section class="position-relative" aria-label="Portada de La Tomatina">
+      <img
+        src="images/c3.jpg"
+        class="hero-img"
+        alt="Participantes cubiertos de tomates durante la batalla de La Tomatina en Buñol"
+      />
+      <div class="hero-overlay position-absolute top-0 start-0 w-100 h-100 d-flex flex-column justify-content-center align-items-center text-center">
+        <span class="badge bg-tallo rounded-pill px-3 py-2 mb-3">Buñol, Valencia &middot; Último miércoles de agosto</span>
+        <h1 class="display-2 fw-bold text-white mb-3">La Tomatina</h1>
+        <p class="lead text-white mb-4 col-12 col-md-8 col-lg-6">
+          La batalla de tomates más famosa del mundo. Una explosión de color, alegría y tradición que reúne a miles de personas cada verano en el corazón de Valencia.
+        </p>
+        <div class="d-flex flex-wrap gap-3 justify-content-center">
+          <a href="historia.html" class="btn btn-light fw-semibold px-4 py-2">Descubre la historia</a>
+          <a href="normas.html" class="btn btn-outline-light fw-semibold px-4 py-2">Inscríbete</a>
+        </div>
+      </div>
+    </section>
 
-            </ul>
+    <section class="py-5">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-12 col-md-10 col-lg-8 text-center">
+            <h2 class="mb-4 titulo-decorado">¿Qué es La Tomatina?</h2>
+            <p class="lead mt-3">
+              Cada último miércoles de agosto, el pequeño municipio valenciano de Buñol se convierte en el epicentro de una fiesta sin igual. Durante una hora, las calles del casco histórico se transforman en un océano rojo donde decenas de miles de participantes se lanzan toneladas de tomates maduros entre risas, gritos y una energía desbordante que hay que vivir para creer.
+            </p>
+            <p>
+              Nacida de forma espontánea en 1945 y declarada <strong>Fiesta de Interés Turístico Internacional</strong> en 2002, La Tomatina ha cruzado fronteras y hoy atrae a visitantes de más de cien países distintos. No es solo una batalla de tomates: es una experiencia colectiva, un rito de alegría compartida y uno de los eventos más fotografiados e icónicos de toda España. Cada año, cerca de 140 toneladas de tomates son distribuidas por los camiones que recorren las calles de Buñol, llenando el ambiente de aroma, color y locura festiva.
+            </p>
           </div>
         </div>
-      </nav>
-      <div class="row container-fluid text-center">
-        <h1>La Tomatina de Buñol</h1>
       </div>
-      <div class="row ">
-        <img src="images/c3.jpg" class="img-portada" alt="">
+    </section>
+
+    <section class="py-5 bg-blanco-sucio franja-color" aria-label="Secciones principales de la web">
+      <div class="container">
+        <h2 class="text-center mb-2 titulo-decorado">Todo lo que necesitas saber</h2>
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-xl-4 g-4 mt-2">
+
+          <div class="col">
+            <a href="historia.html" class="text-decoration-none" aria-label="Ir a Historia">
+              <div class="card card-hover h-100 border-0 shadow-sm">
+                <div class="card-header bg-tomate-intenso text-white text-center py-3 border-0">
+                  <h3 class="h5 mb-0 text-white">Historia</h3>
+                </div>
+                <div class="card-body text-center p-4">
+                  <p class="card-text">
+                    Desde una pelea espontánea en 1945 hasta convertirse en un fenómeno mundial. Descubre cómo nació, fue prohibida y finalmente triunfó esta tradición única e irrepetible.
+                  </p>
+                </div>
+              </div>
+            </a>
+          </div>
+
+          <div class="col">
+            <a href="comoir.html" class="text-decoration-none" aria-label="Ir a Cómo ir">
+              <div class="card card-hover h-100 border-0 shadow-sm">
+                <div class="card-header bg-tallo text-white text-center py-3 border-0">
+                  <h3 class="h5 mb-0 text-white">Cómo ir</h3>
+                </div>
+                <div class="card-body text-center p-4">
+                  <p class="card-text">
+                    Buñol está a solo 40 minutos de Valencia. Te explicamos todas las opciones de transporte: tren, autobús, coche, para que llegues cómodo y a tiempo al evento.
+                  </p>
+                </div>
+              </div>
+            </a>
+          </div>
+
+          <div class="col">
+            <a href="normas.html" class="text-decoration-none" aria-label="Ir a Normas e inscripción">
+              <div class="card card-hover h-100 border-0 shadow-sm">
+                <div class="card-header bg-pueblo text-white text-center py-3 border-0">
+                  <h3 class="h5 mb-0 text-white">Normas</h3>
+                </div>
+                <div class="card-body text-center p-4">
+                  <p class="card-text">
+                    Para que todos disfruten con seguridad hay reglas básicas que respetar. Consulta qué llevar, qué prohibido traer y cómo comportarse dentro de la batalla.
+                  </p>
+                </div>
+              </div>
+            </a>
+          </div>
+
+          <div class="col">
+            <a href="faq.html" class="text-decoration-none" aria-label="Ir a Preguntas frecuentes">
+              <div class="card card-hover h-100 border-0 shadow-sm">
+                <div class="card-header bg-tomate-zumo text-white text-center py-3 border-0">
+                  <h3 class="h5 mb-0 text-white">Preguntas frecuentes</h3>
+                </div>
+                <div class="card-body text-center p-4">
+                  <p class="card-text">
+                    ¿Cuánto cuesta la entrada? ¿Puedo llevar el móvil? ¿Es apta para niños? Respondemos a las dudas más habituales sobre La Tomatina.
+                  </p>
+                </div>
+              </div>
+            </a>
+          </div>
+
+        </div>
       </div>
-      <div style="height: 20px;"></div>
-      <footer class="row mb-0">
-        <p class="text-center">Pagina de la tomatina creada para proyecto de Diseño de Interfaces Web</p>
-      </footer>
-    </div>
+    </section>
+
+    <section class="py-5 bg-tomate-piel" aria-label="Datos destacados de La Tomatina">
+      <div class="container">
+        <div class="row text-center row-cols-2 row-cols-md-4 g-4">
+          <div class="col">
+            <p class="stat-number mb-1">1945</p>
+            <p class="text-white mb-0">Primera edición</p>
+          </div>
+          <div class="col">
+            <p class="stat-number mb-1">140 t</p>
+            <p class="text-white mb-0">De tomates cada año</p>
+          </div>
+          <div class="col">
+            <p class="stat-number mb-1">+20.000</p>
+            <p class="text-white mb-0">Participantes en la batalla</p>
+          </div>
+          <div class="col">
+            <p class="stat-number mb-1">1 hora</p>
+            <p class="text-white mb-0">Duración de la batalla</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <p class="text-center">Página de La Tomatina &middot; Proyecto de Diseño de Interfaces Web</p>
+    </footer>
+
   </body>
 </html>
